@@ -15,6 +15,9 @@
 		934A01C01ADD98ED00899B03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934A01BF1ADD98ED00899B03 /* Images.xcassets */; };
 		934A01C31ADD98ED00899B03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 934A01C11ADD98ED00899B03 /* LaunchScreen.xib */; };
 		934A01CF1ADD98ED00899B03 /* StretchMyHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 934A01CE1ADD98ED00899B03 /* StretchMyHeaderTests.m */; };
+		934A01DA1ADD9AC900899B03 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 934A01D91ADD9AC900899B03 /* CustomTableViewCell.m */; };
+		934A01DD1ADDA6CD00899B03 /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 934A01DC1ADDA6CD00899B03 /* NewsItem.m */; };
+		934A01DF1ADDBCBC00899B03 /* bg-header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 934A01DE1ADDBCBC00899B03 /* bg-header.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,11 @@
 		934A01C81ADD98ED00899B03 /* StretchMyHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchMyHeaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		934A01CD1ADD98ED00899B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		934A01CE1ADD98ED00899B03 /* StretchMyHeaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StretchMyHeaderTests.m; sourceTree = "<group>"; };
+		934A01D81ADD9AC900899B03 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		934A01D91ADD9AC900899B03 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		934A01DB1ADDA6CD00899B03 /* NewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
+		934A01DC1ADDA6CD00899B03 /* NewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
+		934A01DE1ADDBCBC00899B03 /* bg-header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-header.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +94,14 @@
 			children = (
 				934A01B31ADD98ED00899B03 /* AppDelegate.h */,
 				934A01B41ADD98ED00899B03 /* AppDelegate.m */,
+				934A01DB1ADDA6CD00899B03 /* NewsItem.h */,
+				934A01DC1ADDA6CD00899B03 /* NewsItem.m */,
 				934A01B61ADD98ED00899B03 /* MasterViewController.h */,
 				934A01B71ADD98ED00899B03 /* MasterViewController.m */,
 				934A01B91ADD98ED00899B03 /* DetailViewController.h */,
 				934A01BA1ADD98ED00899B03 /* DetailViewController.m */,
+				934A01D81ADD9AC900899B03 /* CustomTableViewCell.h */,
+				934A01D91ADD9AC900899B03 /* CustomTableViewCell.m */,
 				934A01BC1ADD98ED00899B03 /* Main.storyboard */,
 				934A01BF1ADD98ED00899B03 /* Images.xcassets */,
 				934A01C11ADD98ED00899B03 /* LaunchScreen.xib */,
@@ -101,6 +113,7 @@
 		934A01AF1ADD98ED00899B03 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				934A01DE1ADDBCBC00899B03 /* bg-header.jpg */,
 				934A01B01ADD98ED00899B03 /* Info.plist */,
 				934A01B11ADD98ED00899B03 /* main.m */,
 			);
@@ -207,6 +220,7 @@
 				934A01BE1ADD98ED00899B03 /* Main.storyboard in Resources */,
 				934A01C31ADD98ED00899B03 /* LaunchScreen.xib in Resources */,
 				934A01C01ADD98ED00899B03 /* Images.xcassets in Resources */,
+				934A01DF1ADDBCBC00899B03 /* bg-header.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +241,8 @@
 				934A01B51ADD98ED00899B03 /* AppDelegate.m in Sources */,
 				934A01B81ADD98ED00899B03 /* MasterViewController.m in Sources */,
 				934A01B21ADD98ED00899B03 /* main.m in Sources */,
+				934A01DD1ADDA6CD00899B03 /* NewsItem.m in Sources */,
+				934A01DA1ADD9AC900899B03 /* CustomTableViewCell.m in Sources */,
 				934A01BB1ADD98ED00899B03 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController<UIScrollViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+
+@property (weak, nonatomic) IBOutlet UIView *headerUIView;
 
 
 @end
